@@ -1,0 +1,39 @@
+.header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0.5rem;
+
+
+    &__logo{
+        max-width: 220px;
+        filter: invert(1);
+    }
+
+    &__item {
+    display: inline-block;
+    padding: 5px 0.1rem;
+    border-bottom: solid 2px white;
+    
+}
+
+
+    &__anchor {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    
+}
+    &__anchor:hover{
+    color: deepskyblue ;
+    padding: 1rem;
+}
+
+    &__anchor--activo{
+    background-color: rgb(0, 0, 0);
+}
+}

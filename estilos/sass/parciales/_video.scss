@@ -1,0 +1,21 @@
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 40vh;
+    overflow: hidden;
+
+
+    &__titulo {
+    position: absolute;
+    color: rgb(3, 2, 2);
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+}
+}
+
+#background-video {
+    width: 100%;
+}

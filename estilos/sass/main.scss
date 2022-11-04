@@ -1,3 +1,5 @@
-h1{
-    color: antiquewhite;
-} 
+@import "./parciales/header";
+@import "./parciales/hero";
+@import "./parciales/info";
+@import "./parciales/video";
+@import "./parciales/footer"
