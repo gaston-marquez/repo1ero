@@ -143,7 +143,7 @@ p {
 }
 
 .infocard__titulo {
-    position: absolute;
+    
     top: 2rem;
     right: 5rem;
     background: black;
@@ -210,8 +210,8 @@ p {
 
 .block {
     display: grid;
-    grid-template-columns: 1fr;
-    padding: 2rem
+    grid-template-rows: 1fr;
+    
 }
 
 .block__wrapper {
@@ -397,6 +397,9 @@ p {
     .infocard {
         grid-template-columns: 1fr;
         margin: 0px;
+    }
+    .infocard__titulo {
+        position: absolute;
     }
 
     .infocard__img {
